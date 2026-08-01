@@ -11,6 +11,6 @@ Siguiendo la pista que nos da el enunciado usaremos la herramienta dig.
 
 **dig** sirve para hacer consultas a servidores DNS y ver como resulve los dominios
 
-"*dig @IP_SERVE_DNS DOMINIO*"
+"*dig @IP_SERVER_DNS DOMINIO*"
 
 ![alt text](img/image-2.png)

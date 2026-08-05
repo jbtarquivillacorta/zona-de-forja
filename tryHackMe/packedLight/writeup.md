@@ -18,11 +18,11 @@ Al abrir el archivo se ve asi:
 
 Primero determinamos que ip's tienen mas participacion en el archivo *'pcapng'*.
 
-Nos dirigimos a *'Stistics -> Conversations '*
+Nos dirigimos a *'Statistics -> Conversations '*
 
 ![alt text](img/image-2.png)
 
-Nos dirigimos a la pestaña *'IPv4'*, ordenamos segun los *'packets'* y en este caso no quedamos con las ip's **"192.168.1.141 y 34.41.103.191"**.
+Nos dirigimos a la pestaña *'IPv4'*, ordenamos segun los *'packets'* y en este caso nos quedamos con las ip's **"192.168.1.141 y 34.41.103.191"**.
 
 ![alt text](img/image-3.png) 
 
@@ -50,15 +50,17 @@ Nos vamos a *'File -> Export Objects -> http...'*.
 
 ![alt text](img/image-8.png)
 
-Entonces podemos ver objetos http en los paquetes, el archivo que nos interesa es el **'updates.py'** y lo guardamos.
+Entonces podemos ver los objetos http en los paquetes, el archivo que nos interesa es el **'updates.py'** y lo guardamos.
 
 ![alt text](img/image-9.png)
 
-Puede analizar el *'updates.py'* de cualquier forma que desees, lo importante es que es un script que simula un kelogger que cifra cada caracter y lo envia a una url atravez de las cookie en cada peticion.
+Puedes analizar el *'updates.py'* de cualquier forma que desees, lo importante es que es un script que simula un keylogger que cifra cada caracter y lo envia a una url atraves de las cookie en cada peticion.
 
 ![alt text](img/image-10.png)
 
-Si revisamos los otros paquetes del wireshark y revisamos las cookies parecen ser caracteres sin sentido, pero gracias al archivo '*updates.py*' sabemos que es un caracter cifrado.
+Si revisamos los otros paquetes de wireshark y revisamos las cookies parecen ser caracteres sin sentido, pero gracias al archivo '*updates.py*' sabemos que es un caracter cifrado.
+
+![alt text](img/image-19.png)
 
 ## Tshark
 
@@ -97,6 +99,6 @@ Para realizar el proceso inverso se puede hacer con cyberchef o un script propio
 
 ![alt text](img/image-17.png)
 
-Pero el proceso es lento con cyberchef, asi que usare un script proporcionado por la IA para obtener la flag.
+Pero el proceso es lento con cyberchef, asi que usare un script proporcionado por IA para obtener la flag.
 
 ![alt text](img/image-18.png)
